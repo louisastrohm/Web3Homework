@@ -21,34 +21,34 @@
       "oF" : 0,
       "pg" : 0
     },
-    "\/deploy\/img\/Animal Kingdom.webp" : {
+    "\/deploy\/img\/Animal-Kingdom.webp" : {
       "ft" : 8388608,
       "iS" : 410602,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/Animal Kingdom.webp",
+      "oAP" : "\/deploy\/img\/Animal-Kingdom.webp",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
-    "\/deploy\/img\/disney Springs.webp" : {
+    "\/deploy\/img\/disney-Springs.webp" : {
       "ft" : 8388608,
       "iS" : 700402,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/disney Springs.webp",
+      "oAP" : "\/deploy\/img\/disney-Springs.webp",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
-    "\/deploy\/img\/disney ticket.jpeg" : {
+    "\/deploy\/img\/disney-ticket.jpeg" : {
       "ft" : 16384,
       "iS" : 563878,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/disney ticket.jpg",
+      "oAP" : "\/deploy\/img\/disney-ticket.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
