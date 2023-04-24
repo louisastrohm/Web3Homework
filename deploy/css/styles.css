@@ -360,3 +360,20 @@ textarea {
 /* =============
     Footer
 ============= */
+#header {
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: #254789;
+}
+
+#body {
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: #77a1f3;
+}
+
+#footer {
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: #DBE6EE;
+}
