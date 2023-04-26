@@ -253,6 +253,22 @@
       "oAP" : "\/dev\/content\/body.html",
       "oF" : 0
     },
+    "\/dev\/content\/bodyCards1.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/content\/bodyCards1.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/footer.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/content\/footer.html",
+      "oF" : 0
+    },
     "\/dev\/content\/footer.kit" : {
       "cB" : 0,
       "ft" : 2048,
