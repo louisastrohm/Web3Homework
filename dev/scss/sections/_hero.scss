@@ -3,5 +3,30 @@
     display: grid;
 
 grid-template-columns: 1fr ;
+background-color: aquamarine;
+}
+
+.text-logo{
+    fill: #ffffff;
+}
+
+#heroCTA-2col{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+#2-col darkblue{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #001951;
+}
+
+#2-col lightblue{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #254789;
 
 }
