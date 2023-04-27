@@ -237,36 +237,12 @@
       "sC" : 3,
       "tS" : 0
     },
-    "\/dev\/content\/body.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/content\/body.html",
-      "oF" : 0
-    },
-    "\/dev\/content\/body.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/content\/body.html",
-      "oF" : 0
-    },
     "\/dev\/content\/bodyCards1.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dev\/content\/bodyCards1.html",
-      "oF" : 0
-    },
-    "\/dev\/content\/footer.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/content\/footer.html",
       "oF" : 0
     },
     "\/dev\/content\/footer.kit" : {
@@ -285,14 +261,6 @@
       "oAP" : "\/dev\/content\/head.html",
       "oF" : 0
     },
-    "\/dev\/content\/header.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/content\/header.html",
-      "oF" : 0
-    },
     "\/dev\/content\/header.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -307,6 +275,22 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/content\/hero.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/photogallery.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/photogallery.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/planVisit.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/planVisit.html",
       "oF" : 0
     },
     "\/dev\/index.kit" : {
@@ -478,7 +462,7 @@
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/sections\/_body.scss" : {
+    "\/dev\/scss\/sections\/_bodyCards1.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -487,7 +471,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/_body.css",
+      "oAP" : "\/dev\/scss\/sections\/_bodyCards1.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
@@ -518,6 +502,51 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/sections\/_header.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/_hero.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_hero.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/_photogallery.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_photogallery.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/_planVisit.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_planVisit.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,

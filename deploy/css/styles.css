@@ -366,10 +366,24 @@ textarea {
   background-color: #254789;
 }
 
-#body {
+#hero {
   display: grid;
   grid-template-columns: 1fr;
-  background-color: #77a1f3;
+}
+
+#bodyCards1 {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+#photogallery {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+#planvisit {
+  display: grid;
+  grid-template-columns: 1fr;
 }
 
 #footer {
