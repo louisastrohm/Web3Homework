@@ -362,13 +362,21 @@ textarea {
 ============= */
 #header {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 100%;
   background-color: #254789;
 }
 
 #hero {
   display: grid;
+}
+#hero .heroCTA-2col {
+  display: grid;
   grid-template-columns: 1fr;
+}
+#hero .heroCTA-2col aside {
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: #001951;
 }
 
 #bodyCards1 {
@@ -384,10 +392,10 @@ textarea {
 #planvisit {
   display: grid;
   grid-template-columns: 1fr;
+  background-color: #DBE6EE;
 }
 
 #footer {
   display: grid;
   grid-template-columns: 1fr;
-  background-color: #82ff28;
 }
