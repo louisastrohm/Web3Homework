@@ -4,17 +4,33 @@
 
 .heroCTA-2col{
     display: grid;
-    grid-template-columns: 1fr;
-
+    grid-template-columns: auto;
+    grid-template-areas: "aside" "article";
+    
 
    aside{
 
-        display: grid;
-        grid-template-columns: 1fr ;
+    
         background-color: #001951;
+
     }
 
+
+    article{
+        
+        background-color: #254789;
+
+    }
+    @include md{
+        grid-template-columns: 20% 80%;
+        
+    }    
+    @include lg{
+        grid-template-columns: 50% 50%;
+  }
+
+    @include xl{
+         grid-template-columns: 50% 50%;
+     }
 }
-
-
 }

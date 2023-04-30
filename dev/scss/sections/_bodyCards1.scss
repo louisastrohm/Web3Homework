@@ -1,7 +1,12 @@
 #bodyCards1{
 
-    display: grid;
+aside{
 
-grid-template-columns: 1fr ;
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-gap: 16px;
+    background-color: #77A1F3;
+}
+
 
 }

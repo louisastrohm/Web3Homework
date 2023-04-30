@@ -1,7 +1,14 @@
-#planvisit{
+#planVisit{
+
     display: grid;
 
-    grid-template-columns: 1fr ;
+    li{
+        display: grid;
+        grid-template-columns: 1fr;
+        background-color: #DBE6EE;
+        
 
-    background-color: #DBE6EE ;
+    }
+
 }
+
