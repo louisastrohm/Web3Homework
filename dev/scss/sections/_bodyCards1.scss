@@ -1,11 +1,36 @@
 #bodyCards1{
-
-aside{
-
     display: grid;
-    grid-template-columns: 1fr ;
+
+.bodyCards1{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-areas: "article" "aside";
     grid-gap: 16px;
+    margin: 16px;
+
+    article{
+
+        background-color: #77A1F3;
+    }
+    
+    aside {
+    
     background-color: #77A1F3;
+    
+    
+    }
+    @include md{
+        grid-template-columns: 50% 50%;
+        
+    }    
+    @include lg{
+        grid-template-columns: 50% 50%;
+    }
+    
+    @include xl{
+         grid-template-columns: 50% 50%;
+     }
+
 }
 
 

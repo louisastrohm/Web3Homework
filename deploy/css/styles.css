@@ -405,16 +405,65 @@ textarea {
   }
 }
 
-#bodyCards1 aside {
+#bodyCards1 {
   display: grid;
-  grid-template-columns: 1fr;
+}
+#bodyCards1 .bodyCards1 {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-areas: "article" "aside";
   grid-gap: 16px;
+  margin: 16px;
+}
+#bodyCards1 .bodyCards1 article {
   background-color: #77A1F3;
+}
+#bodyCards1 .bodyCards1 aside {
+  background-color: #77A1F3;
+}
+@media (min-width: 768px) {
+  #bodyCards1 .bodyCards1 {
+    grid-template-columns: 50% 50%;
+  }
+}
+@media (min-width: 1024px) {
+  #bodyCards1 .bodyCards1 {
+    grid-template-columns: 50% 50%;
+  }
+}
+@media (min-width: 1200px) {
+  #bodyCards1 .bodyCards1 {
+    grid-template-columns: 50% 50%;
+  }
 }
 
 #photogallery {
   display: grid;
-  grid-template-columns: 1fr;
+}
+#photogallery .gallery-grid {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-areas: "aside" "div" "article";
+}
+@media (min-width: 576px) {
+  #photogallery .gallery-grid {
+    grid-template-columns: 1fr;
+  }
+}
+@media (min-width: 768px) {
+  #photogallery .gallery-grid {
+    grid-template-columns: 50% 50% 0%;
+  }
+}
+@media (min-width: 1024px) {
+  #photogallery .gallery-grid {
+    grid-template-columns: 60% 40% 0%;
+  }
+}
+@media (min-width: 1200px) {
+  #photogallery .gallery-grid {
+    grid-template-columns: 70% auto auto;
+  }
 }
 
 #planVisit {
