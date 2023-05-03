@@ -381,7 +381,6 @@ textarea {
 #hero .heroCTA-2col {
   display: grid;
   grid-template-columns: auto;
-  grid-template-areas: "aside" "article";
 }
 #hero .heroCTA-2col aside {
   background-color: #001951;
@@ -391,7 +390,7 @@ textarea {
 }
 @media (min-width: 768px) {
   #hero .heroCTA-2col {
-    grid-template-columns: 20% 80%;
+    grid-template-columns: 30% 70%;
   }
 }
 @media (min-width: 1024px) {
@@ -468,15 +467,48 @@ textarea {
 
 #planVisit {
   display: grid;
-}
-#planVisit li {
-  display: grid;
   grid-template-columns: 1fr;
+  margin: 0px 16px;
+}
+#planVisit ul {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-gap: 8px;
+}
+#planVisit ul li {
   background-color: #DBE6EE;
+  width: 100%;
+  grid-template-columns: 1fr;
+}
+@media (min-width: 768px) {
+  #planVisit {
+    margin: 0 40px;
+  }
+  #planVisit ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 8px;
+  }
+}
+@media (min-width: 1024px) {
+  #planVisit {
+    margin: 0 40px;
+  }
+  #planVisit ul {
+    grid-template-columns: repeat(5, 1fr);
+  }
 }
 
 #footer {
   display: grid;
   grid-template-columns: 1fr;
+  grid-template-areas: "div" "aside" "article";
+  color: white;
   background-color: #001951;
+}
+@media (min-width: 768px) {
+  #footer {
+    grid-template-columns: auto auto auto;
+  }
 }
