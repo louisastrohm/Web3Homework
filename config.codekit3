@@ -21,34 +21,34 @@
       "oF" : 0,
       "pg" : 0
     },
-    "\/deploy\/img\/Animal-Kingdom.webp" : {
+    "\/deploy\/img\/AnimalKingdom.webp" : {
       "ft" : 8388608,
       "iS" : 410602,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/Animal-Kingdom.webp",
+      "oAP" : "\/deploy\/img\/AnimalKingdom.webp",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
-    "\/deploy\/img\/disney-Springs.webp" : {
+    "\/deploy\/img\/disneySprings.webp" : {
       "ft" : 8388608,
       "iS" : 700402,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/disney-Springs.webp",
+      "oAP" : "\/deploy\/img\/disneySprings.webp",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
-    "\/deploy\/img\/disney-ticket.jpeg" : {
+    "\/deploy\/img\/disneyticket.jpeg" : {
       "ft" : 16384,
       "iS" : 563878,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/disney-ticket.jpg",
+      "oAP" : "\/deploy\/img\/disneyticket.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -237,6 +237,14 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/dev\/content\/bodyCards1.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/content\/bodyCards1.html",
+      "oF" : 0
+    },
     "\/dev\/content\/bodyCards1.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -277,12 +285,28 @@
       "oAP" : "\/dev\/content\/hero.html",
       "oF" : 0
     },
+    "\/dev\/content\/photogallery.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/content\/photogallery.html",
+      "oF" : 0
+    },
     "\/dev\/content\/photogallery.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/content\/photogallery.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/planVisit.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/content\/planVisit.html",
       "oF" : 0
     },
     "\/dev\/content\/planVisit.kit" : {
