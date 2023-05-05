@@ -6,7 +6,7 @@
     grid-template-columns: auto;
     grid-template-areas: "article" "aside";
     grid-gap: 16px;
-    margin: 16px;
+    
 
     article{
 
@@ -21,14 +21,16 @@
     }
     @include md{
         grid-template-columns: 50% 50%;
-        
+        margin: 16px;
     }    
     @include lg{
         grid-template-columns: 50% 50%;
+        margin: 16px;
     }
     
     @include xl{
          grid-template-columns: 50% 50%;
+         margin: 16px;
      }
 
 }

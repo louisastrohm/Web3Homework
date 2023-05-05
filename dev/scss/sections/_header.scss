@@ -1,12 +1,27 @@
-#header{
+header{
 
 display: grid;
 
-grid-template-columns: 100%;
+grid-template-columns: 1fr;
 
 background-color: #254789;
 
+section{
 
+    background-color: #254789;
+    padding: 24px;
+    display: flex;
 
+        img{
+            width: 76px;
+            height: 53px;
+        }
+
+    }
+
+    div{
+
+        display: none;
+    }
 }
 

@@ -171,6 +171,19 @@
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
+    "\/deploy\/img\/search.png" : {
+      "ft" : 32768,
+      "iS" : 17414,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/search.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
     "\/deploy\/img\/slinkyDog.webp" : {
       "ft" : 8388608,
       "iS" : 108030,

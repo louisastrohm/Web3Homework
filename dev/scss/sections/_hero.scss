@@ -2,6 +2,39 @@
 
     display: grid;
 
+
+    nav{
+        padding: 24px;
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+
+
+
+        h1{
+            border: none;
+            width: 100%;
+            border-bottom: 1px solid #A8DADC;
+        }
+
+        button{
+            background-color: #E2BA06;
+            border-radius: 3.5px;
+            border: none;
+            width: 43px;
+            height: 34px;
+        }
+    }
+    
+    img{
+        display: grid;
+        grid-template-columns: 100%;
+    }
+
+
+
+
     .heroCTA-2col{
         display: grid;
         grid-template-columns: auto;
@@ -18,21 +51,18 @@
             background-color: #254789;
         }
 
-        .suhero{
+        @include md{
+            grid-template-columns: 30% 70%;
+        }    
 
+        @include lg{
+            grid-template-columns: 50% 50%;
+        }
+
+        @include xl{
+            grid-template-columns: 50% 50%;
+        }
         }
 
 
-            @include md{
-                grid-template-columns: 30% 70%;
-            }    
-            
-            @include lg{
-                grid-template-columns: 50% 50%;
-            }
-
-            @include xl{
-                grid-template-columns: 50% 50%;
-            }
     }
-}

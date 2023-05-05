@@ -339,6 +339,10 @@ img {
 /* =============
     Typography
 ============= */
+body {
+  font-family: "Quicksand", sans-serif;
+}
+
 /* =============
     Buttons
 ============= */
@@ -369,14 +373,49 @@ textarea {
 /* =============
     Footer
 ============= */
-#header {
+header {
   display: grid;
-  grid-template-columns: 100%;
+  grid-template-columns: 1fr;
   background-color: #254789;
+}
+header section {
+  background-color: #254789;
+  padding: 24px;
+  display: flex;
+}
+header section img {
+  width: 76px;
+  height: 53px;
+}
+header div {
+  display: none;
 }
 
 #hero {
   display: grid;
+}
+#hero nav {
+  padding: 24px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+#hero nav h1 {
+  border: none;
+  width: 100%;
+  border-bottom: 1px solid #A8DADC;
+}
+#hero nav button {
+  background-color: #E2BA06;
+  border-radius: 3.5px;
+  border: none;
+  width: 43px;
+  height: 34px;
+}
+#hero img {
+  display: grid;
+  grid-template-columns: 100%;
 }
 #hero .heroCTA-2col {
   display: grid;
@@ -412,7 +451,6 @@ textarea {
   grid-template-columns: auto;
   grid-template-areas: "article" "aside";
   grid-gap: 16px;
-  margin: 16px;
 }
 #bodyCards1 .bodyCards1 article {
   background-color: #77A1F3;
@@ -423,16 +461,19 @@ textarea {
 @media (min-width: 768px) {
   #bodyCards1 .bodyCards1 {
     grid-template-columns: 50% 50%;
+    margin: 16px;
   }
 }
 @media (min-width: 1024px) {
   #bodyCards1 .bodyCards1 {
     grid-template-columns: 50% 50%;
+    margin: 16px;
   }
 }
 @media (min-width: 1200px) {
   #bodyCards1 .bodyCards1 {
     grid-template-columns: 50% 50%;
+    margin: 16px;
   }
 }
 
