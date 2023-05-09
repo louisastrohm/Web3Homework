@@ -1,5 +1,6 @@
 #bodyCards1{
     display: grid;
+    color: white;
 
 .bodyCards1{
     display: grid;
@@ -10,15 +11,37 @@
 
     article{
 
+        display: flex;
         background-color: #77A1F3;
+        padding: 16px;
+        align-self: center;
+        justify-content: space-between;
+        
+
+        h2{
+            border: none;
+            width: 100%;
+        }
+
+        button{
+            background-color: #E2BA06;
+            border-radius: 1px;
+            border: none;
+            color: white;
+            width: 92px;
+            height: 27px;
+        }
+
+        img{
+            border: 3px solid white;
+            border-radius: 100px;
+            width: 85px;
+            height: 85px;
+            float: right;
+
+        }
     }
     
-    aside {
-    
-    background-color: #77A1F3;
-    
-    
-    }
     @include md{
         grid-template-columns: 50% 50%;
         margin: 16px;

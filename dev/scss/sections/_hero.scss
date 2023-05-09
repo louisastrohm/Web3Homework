@@ -6,7 +6,7 @@
     nav{
         padding: 24px;
         display: flex;
-        width: 100%;
+        
         align-items: center;
         justify-content: space-between;
 
@@ -37,18 +37,66 @@
 
     .heroCTA-2col{
         display: grid;
-        grid-template-columns: auto;
-        
+        grid-template-columns: 1fr;
+        color: white;
         
 
         aside{
-            
+
+                display: flex;
                 background-color: #001951;
+                align-items: center;
+                padding-left: 18px;
+
+                h4{
+                    border: none;
+                    width: 100%;  
+                }
+
+                p{
+                    border: none;
+                    width: 100%;
+                   
+
+                }
+
+                a{
+                    border: none;
+                    width: 100%;
+                    align-self: center;
+                }
+
+                img{
+                    border: none; 
+                    width: 40px;
+                    height: 40px;
+                }
             }
 
         article{
             
+           
+            display: flex;
             background-color: #254789;
+            align-items: center;
+            padding-left: 18px;
+
+            p{
+                border: none;
+                width: 100%;  
+            }
+
+            a{
+                border: none;
+                width: 100%;
+                padding: 80px;
+            }
+
+            img{
+                border: none; 
+                width: 40px;
+                height: 40px;
+            }
         }
 
         @include md{
@@ -57,6 +105,7 @@
 
         @include lg{
             grid-template-columns: 50% 50%;
+           
         }
 
         @include xl{

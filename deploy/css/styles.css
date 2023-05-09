@@ -336,6 +336,10 @@ img {
   width: 100%;
 }
 
+li {
+  list-style: none;
+}
+
 /* =============
     Typography
 ============= */
@@ -397,7 +401,6 @@ header div {
 #hero nav {
   padding: 24px;
   display: flex;
-  width: 100%;
   align-items: center;
   justify-content: space-between;
 }
@@ -419,13 +422,52 @@ header div {
 }
 #hero .heroCTA-2col {
   display: grid;
-  grid-template-columns: auto;
+  grid-template-columns: 1fr;
+  color: white;
 }
 #hero .heroCTA-2col aside {
+  display: flex;
   background-color: #001951;
+  align-items: center;
+  padding-left: 18px;
+}
+#hero .heroCTA-2col aside h4 {
+  border: none;
+  width: 100%;
+}
+#hero .heroCTA-2col aside p {
+  border: none;
+  width: 100%;
+}
+#hero .heroCTA-2col aside a {
+  border: none;
+  width: 100%;
+  align-self: center;
+}
+#hero .heroCTA-2col aside img {
+  border: none;
+  width: 40px;
+  height: 40px;
 }
 #hero .heroCTA-2col article {
+  display: flex;
   background-color: #254789;
+  align-items: center;
+  padding-left: 18px;
+}
+#hero .heroCTA-2col article p {
+  border: none;
+  width: 100%;
+}
+#hero .heroCTA-2col article a {
+  border: none;
+  width: 100%;
+  padding: 80px;
+}
+#hero .heroCTA-2col article img {
+  border: none;
+  width: 40px;
+  height: 40px;
 }
 @media (min-width: 768px) {
   #hero .heroCTA-2col {
@@ -445,6 +487,7 @@ header div {
 
 #bodyCards1 {
   display: grid;
+  color: white;
 }
 #bodyCards1 .bodyCards1 {
   display: grid;
@@ -453,10 +496,30 @@ header div {
   grid-gap: 16px;
 }
 #bodyCards1 .bodyCards1 article {
+  display: flex;
   background-color: #77A1F3;
+  padding: 16px;
+  align-self: center;
+  justify-content: space-between;
 }
-#bodyCards1 .bodyCards1 aside {
-  background-color: #77A1F3;
+#bodyCards1 .bodyCards1 article h2 {
+  border: none;
+  width: 100%;
+}
+#bodyCards1 .bodyCards1 article button {
+  background-color: #E2BA06;
+  border-radius: 1px;
+  border: none;
+  color: white;
+  width: 92px;
+  height: 27px;
+}
+#bodyCards1 .bodyCards1 article img {
+  border: 3px solid white;
+  border-radius: 100px;
+  width: 85px;
+  height: 85px;
+  float: right;
 }
 @media (min-width: 768px) {
   #bodyCards1 .bodyCards1 {
