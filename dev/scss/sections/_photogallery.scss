@@ -8,20 +8,37 @@
     grid-template-columns: auto;
     grid-template-areas: "aside" "div" "article";
 
+    article{
+
+        img{
+            display: none;
+        }
+    }
+
     @include sm{
         grid-template-columns: 1fr;
+    
     }
 
     @include md{
-        grid-template-columns: 50% 50% 0%;
+        grid-template-columns: 50% 50%;
         
     }    
     @include lg{
-        grid-template-columns: 60% 40% 0%;
+        grid-template-columns: 60% 40%;
   }
 
     @include xl{
-         grid-template-columns: 70% auto auto;
+         grid-template-columns: 70% 30%;
+         
+         article{
+
+            img{
+                display: "article";
+                width:99%;
+            }
+        }
+         
      }
 
 

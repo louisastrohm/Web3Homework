@@ -548,6 +548,9 @@ header div {
   grid-template-columns: auto;
   grid-template-areas: "aside" "div" "article";
 }
+#photogallery .gallery-grid article img {
+  display: none;
+}
 @media (min-width: 576px) {
   #photogallery .gallery-grid {
     grid-template-columns: 1fr;
@@ -555,17 +558,21 @@ header div {
 }
 @media (min-width: 768px) {
   #photogallery .gallery-grid {
-    grid-template-columns: 50% 50% 0%;
+    grid-template-columns: 50% 50%;
   }
 }
 @media (min-width: 1024px) {
   #photogallery .gallery-grid {
-    grid-template-columns: 60% 40% 0%;
+    grid-template-columns: 60% 40%;
   }
 }
 @media (min-width: 1200px) {
   #photogallery .gallery-grid {
-    grid-template-columns: 70% auto auto;
+    grid-template-columns: 70% 30%;
+  }
+  #photogallery .gallery-grid article img {
+    display: "article";
+    width: 99%;
   }
 }
 
