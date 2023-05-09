@@ -5,18 +5,27 @@
 .gallery-grid{
 
     display: grid;
-    grid-template-columns: auto;
-    grid-template-areas: "aside" "div" "article";
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "aside" "article";
 
-    article{
+    aside{
+        display:flex;
+        align-self: center;
+        justify-content: space-between;
 
-        img{
-            display: none;
-        }
+    }
+
+    
     }
 
     @include sm{
         grid-template-columns: 1fr;
+       
+        .pic3{
+            img{
+                display:none;
+            }
+        }
     
     }
 
@@ -31,18 +40,10 @@
     @include xl{
          grid-template-columns: 70% 30%;
          
-         article{
-
-            img{
-                display: "article";
-                width:99%;
-            }
         }
          
      }
 
 
-}
 
 
-}

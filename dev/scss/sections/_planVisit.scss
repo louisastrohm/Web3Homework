@@ -14,6 +14,18 @@
                 background-color: #DBE6EE;
                 width: 100%;
                 grid-template-columns: 1fr;
+                align-content: center;
+                
+
+
+                button{
+                    background-color: #E2BA06;
+                    border-radius: 1px;
+                    border: none;
+                    color: white;
+                    width: 97px;
+                    height: 27px;
+                }
             }
 
     }

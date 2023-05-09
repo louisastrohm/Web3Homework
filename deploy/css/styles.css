@@ -401,6 +401,7 @@ header div {
 #hero nav {
   padding: 24px;
   display: flex;
+  color: #001951;
   align-items: center;
   justify-content: space-between;
 }
@@ -413,7 +414,7 @@ header div {
   background-color: #E2BA06;
   border-radius: 3.5px;
   border: none;
-  width: 43px;
+  width: 42px;
   height: 34px;
 }
 #hero img {
@@ -511,7 +512,7 @@ header div {
   border-radius: 1px;
   border: none;
   color: white;
-  width: 92px;
+  width: 95px;
   height: 27px;
 }
 #bodyCards1 .bodyCards1 article img {
@@ -545,34 +546,35 @@ header div {
 }
 #photogallery .gallery-grid {
   display: grid;
-  grid-template-columns: auto;
-  grid-template-areas: "aside" "div" "article";
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "aside" "article";
 }
-#photogallery .gallery-grid article img {
-  display: none;
+#photogallery .gallery-grid aside {
+  display: flex;
+  align-self: center;
+  justify-content: space-between;
 }
 @media (min-width: 576px) {
-  #photogallery .gallery-grid {
+  #photogallery {
     grid-template-columns: 1fr;
+  }
+  #photogallery .pic3 img {
+    display: none;
   }
 }
 @media (min-width: 768px) {
-  #photogallery .gallery-grid {
+  #photogallery {
     grid-template-columns: 50% 50%;
   }
 }
 @media (min-width: 1024px) {
-  #photogallery .gallery-grid {
+  #photogallery {
     grid-template-columns: 60% 40%;
   }
 }
 @media (min-width: 1200px) {
-  #photogallery .gallery-grid {
+  #photogallery {
     grid-template-columns: 70% 30%;
-  }
-  #photogallery .gallery-grid article img {
-    display: "article";
-    width: 99%;
   }
 }
 
@@ -591,6 +593,15 @@ header div {
   background-color: #DBE6EE;
   width: 100%;
   grid-template-columns: 1fr;
+  align-content: center;
+}
+#planVisit ul li button {
+  background-color: #E2BA06;
+  border-radius: 1px;
+  border: none;
+  color: white;
+  width: 97px;
+  height: 27px;
 }
 @media (min-width: 768px) {
   #planVisit {
