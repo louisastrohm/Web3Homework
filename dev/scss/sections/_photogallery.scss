@@ -1,49 +1,92 @@
 #photogallery{
 
+    list-style: none;
+    padding: 0;
+    margin:0;
     display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "slinky"
+    "princess"
+    "group";
 
-.gallery-grid{
+        li.slinky{
+            grid-area: slinky;
+            height: 360px;
+            background-image: url(../img/slinkyDog.webp);
+            background-size: cover;
+            background-position: center center;
+        }
 
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: "aside" "article";
+        li.princess{
+            grid-area: princess;
+            height: 480px;
+            background-image: url(../img/princess.webp);
+            background-size: cover;
+            background-position: center center;
+        }
 
-    aside{
-        display:flex;
-        align-self: center;
-        justify-content: space-between;
+       li.group{
+            grid-area: group;
+            height: 400px;
+            background-image: url(../img/pic3.jpeg);
+            background-size: cover;
+            background-position: center center;
+            display: none;
+             
+        }
 
-    }
+        @include md{
+            grid-template-columns: 1fr 1fr;
+            grid-template-areas: 
+            "slinky princess";
 
-    
-    }
-
-    @include sm{
-        grid-template-columns: 1fr;
-       
-        .pic3{
-            img{
-                display:none;
+            li.slinky, li.princess{
+                height: 600px;
             }
-        }
-    
-    }
 
-    @include md{
-        grid-template-columns: 50% 50%;
+        }
+
+        @include lg{
+            grid-template-columns: 60% 40%;
+            grid-template-areas: 
+            "slinky princess";
+
+
+            li.slinky, li.princess{
+                height: 600px;
+            }
+
+            
+        }
         
+
+        @include xl{
+            grid-template-columns: 1fr 1fr;
+            grid-template-areas: 
+            "slinky princess"
+            "slinky group";
+
+            li.slinky{
+                height: auto;
+            }
+
+            li.group{
+                display: inline;
+            }
+
+            li.princess,li.group{
+                height: 400px;
+            }
+
     }    
-    @include lg{
-        grid-template-columns: 60% 40%;
-  }
 
-    @include xl{
-         grid-template-columns: 70% 30%;
-         
-        }
-         
-     }
+}
 
+
+
+
+    
 
 
 

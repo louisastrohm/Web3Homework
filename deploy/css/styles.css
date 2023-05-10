@@ -542,39 +542,66 @@ header div {
 }
 
 #photogallery {
+  list-style: none;
+  padding: 0;
+  margin: 0;
   display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas: "slinky" "princess" "group";
 }
-#photogallery .gallery-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-areas: "aside" "article";
+#photogallery li.slinky {
+  grid-area: slinky;
+  height: 360px;
+  background-image: url(../img/slinkyDog.webp);
+  background-size: cover;
+  background-position: center center;
 }
-#photogallery .gallery-grid aside {
-  display: flex;
-  align-self: center;
-  justify-content: space-between;
+#photogallery li.princess {
+  grid-area: princess;
+  height: 480px;
+  background-image: url(../img/princess.webp);
+  background-size: cover;
+  background-position: center center;
 }
-@media (min-width: 576px) {
-  #photogallery {
-    grid-template-columns: 1fr;
-  }
-  #photogallery .pic3 img {
-    display: none;
-  }
+#photogallery li.group {
+  grid-area: group;
+  height: 400px;
+  background-image: url(../img/pic3.jpeg);
+  background-size: cover;
+  background-position: center center;
+  display: none;
 }
 @media (min-width: 768px) {
   #photogallery {
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "slinky princess";
+  }
+  #photogallery li.slinky, #photogallery li.princess {
+    height: 600px;
   }
 }
 @media (min-width: 1024px) {
   #photogallery {
     grid-template-columns: 60% 40%;
+    grid-template-areas: "slinky princess";
+  }
+  #photogallery li.slinky, #photogallery li.princess {
+    height: 600px;
   }
 }
 @media (min-width: 1200px) {
   #photogallery {
-    grid-template-columns: 70% 30%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "slinky princess" "slinky group";
+  }
+  #photogallery li.slinky {
+    height: auto;
+  }
+  #photogallery li.group {
+    display: inline;
+  }
+  #photogallery li.princess, #photogallery li.group {
+    height: 400px;
   }
 }
 
@@ -582,6 +609,7 @@ header div {
   display: grid;
   grid-template-columns: 1fr;
   margin: 0px 16px;
+  color: #001951;
 }
 #planVisit ul {
   margin: 0;
