@@ -444,6 +444,7 @@ header div {
   border: none;
   width: 100%;
   align-self: center;
+  color: white;
 }
 #hero .heroCTA-2col aside img {
   border: none;
@@ -464,6 +465,7 @@ header div {
   border: none;
   width: 100%;
   padding: 80px;
+  color: white;
 }
 #hero .heroCTA-2col article img {
   border: none;
@@ -651,6 +653,7 @@ header div {
 }
 
 #footer {
+  margin-top: 55px;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-areas: "div" "aside" "article";
