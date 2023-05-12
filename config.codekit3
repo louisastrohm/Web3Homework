@@ -167,18 +167,15 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/planeicon.png" : {
-      "ft" : 32768,
-      "iS" : 90079,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/planeicon.png",
+    "\/deploy\/img\/planeicon.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/planeicon.svg",
       "oF" : 0,
-      "oIPL" : 1,
-      "opt" : 1,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
     },
     "\/deploy\/img\/planes.jpeg" : {
       "ft" : 16384,

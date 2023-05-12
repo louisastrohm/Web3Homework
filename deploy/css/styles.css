@@ -336,6 +336,11 @@ img {
   width: 100%;
 }
 
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
 li {
   list-style: none;
 }
@@ -404,6 +409,7 @@ header div {
   color: #001951;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 16px;
 }
 #hero nav h1 {
   border: none;
@@ -610,20 +616,21 @@ header div {
 #planVisit {
   display: grid;
   grid-template-columns: 1fr;
-  margin: 0px 16px;
   color: #001951;
 }
 #planVisit ul {
-  margin: 0;
-  padding: 0;
-  display: grid;
-  grid-gap: 8px;
+  display: flex;
+  flex-direction: column;
 }
 #planVisit ul li {
   background-color: #DBE6EE;
   width: 100%;
-  grid-template-columns: 1fr;
-  align-content: center;
+}
+#planVisit ul li .textdetail {
+  padding: 15px;
+}
+#planVisit ul li .textdetail h3 {
+  margin: 0;
 }
 #planVisit ul li button {
   background-color: #E2BA06;
@@ -634,21 +641,28 @@ header div {
   height: 27px;
 }
 @media (min-width: 768px) {
-  #planVisit {
-    margin: 0 40px;
-  }
   #planVisit ul {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 8px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1%;
+  }
+  #planVisit ul .card {
+    width: 48%;
+  }
+  #planVisit ul li:last-child {
+    margin: 0 auto;
   }
 }
 @media (min-width: 1024px) {
-  #planVisit {
-    margin: 0 40px;
-  }
   #planVisit ul {
-    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+  }
+  #planVisit ul .card {
+    width: 32%;
+  }
+  #planVisit ul li:last-child {
+    margin: 0;
   }
 }
 

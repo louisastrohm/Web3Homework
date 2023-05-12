@@ -2,51 +2,65 @@
 
         display: grid;
         grid-template-columns: 1fr;
-        margin: 0px 16px;
         color:  #001951;
 
         ul{
-            margin: 0;
-            padding: 0;
-            display: grid; 
-            grid-gap: 8px;
+           
+            display: flex; 
+            flex-direction: column;
+
+          
 
             li{
                 background-color: #DBE6EE;
                 width: 100%;
-                grid-template-columns: 1fr;
-                align-content: center;
+
+                    .textdetail{
+                        padding:15px;
+                        h3{
+                            margin: 0;
+                        }
+                    }
+                    button{
+                        background-color: #E2BA06;
+                        border-radius: 1px;
+                        border: none;
+                        color: white;
+                        width: 97px;
+                        height: 27px;
+                    }
+
+            }
+
+            
+
+            @include md{
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                gap: 1%;
                 
+                .card{
+                    width: 48%;
+                    
+                }
 
-
-                button{
-                    background-color: #E2BA06;
-                    border-radius: 1px;
-                    border: none;
-                    color: white;
-                    width: 97px;
-                    height: 27px;
+                li:last-child{
+                    margin: 0 auto;
                 }
             }
 
-    }
+            @include lg{
+                justify-content: center;
+                .card{
+                    width: 32%;
+                }
 
-    @include md{
+                li:last-child{
+                    margin: 0;
+                }
 
-        margin: 0 40px;
-        ul{
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            grid-gap: 8px
-        }
-    }
-
-    @include lg{
-        margin: 0 40px;
-        ul{
-            grid-template-columns: 1fr 1fr 1fr;
-
-        }
+            }
 
     }
 

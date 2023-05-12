@@ -7,6 +7,7 @@
     grid-template-columns: auto;
     grid-template-areas: "article" "aside";
     grid-gap: 16px;
+
     
 
     article{
@@ -14,6 +15,7 @@
         display: flex;
         background-color: #77A1F3;
         padding: 16px;
+  
         align-self: center;
         justify-content: space-between;
         
