@@ -1,22 +1,130 @@
-#footer{
+footer{
+    display: grid;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: ". footer .";
+    color: white;
+    background-color: #001951;
 
-  
+    section{
+        grid-area: footer;
+
+        @include md{
+            display: grid;
+            grid-template-columns: 50% auto;
+            grid-template-areas:
+                            "f1 f2"
+                            "f1 f3";
+        }
+
+        @include lg{
+            grid-template-areas: "f1 f2 f3";
+        }
+
+        .places{
+            padding: 16px;
+
+            #l1{
+            display:flex;
+
+            align-self: center;
+            justify-content: left;
+
+            h3{
+                width: 100%;
+                border:none;
+            }
+
+            p{
+                width:100%;
+            }
+
+
+
+            }
+
+            #l2{
+                display:flex;
+                align-self: center;
+                
+                }
+
+            #l3{
+                display:flex;
+                align-self: center;
+                    
+                }
 
         
-        margin-top: 55px;
-        display: grid;
-        grid-template-columns: 1fr ;
-        grid-template-areas: "div" "aside" "article";
-        color: white;
-        background-color: #001951;
+           @include md{
+                grid-area: f1;
+            }
+
+        }
+        .newsletter{
+            padding: 16px;
+
+            form{
+                input{
+                    border: none;
+                }
+
+                button{
+                    border: none;
+                    background-color: #E2BA06;
+                    color: white;
+                }
+            }
+
+
+            @include md{
+                grid-area: f2;
+            }
+
+
+        }
+        .socials{
+            padding: 16px;
+
+            img{
+                width:140px;
+
+
+            }
+
+            @include md{
+                grid-area: f3;
+            }
+
+
+        }
+    }
+
+}
+
+
+// #footer{
+
+    
+
 
   
 
-    @include md{
-        grid-template-columns: auto auto auto;
-    }
 
-    
+        // @include md{
+        //     display: grid;
+        //     grid-template-columns: repeat(2, lfr);
+        //     grid-template-areas:
+        //     "places newsletter"
+        //     ". socials"
+        // }
 
-    
-}
+        // @include lg{
+        //     display: grid;
+        //     grid-template-columns: repeat(3, lfr);
+        //     grid-template-areas:
+        //     "places newsletter socials"
+        // }
+
+
+
+// }

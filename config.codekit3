@@ -225,6 +225,19 @@
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
+    "\/deploy\/img\/socials.png" : {
+      "ft" : 32768,
+      "iS" : 13498,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/socials.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
     "\/deploy\/img\/wdw-logo.svg" : {
       "ft" : 2097152,
       "miP" : 0,
