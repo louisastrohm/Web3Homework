@@ -421,6 +421,11 @@ header div {
   border: none;
   width: 42px;
   height: 34px;
+  align-items: center;
+}
+#hero nav button img {
+  width: 40px;
+  align-items: center;
 }
 #hero img {
   display: grid;
@@ -690,25 +695,13 @@ footer section {
 footer section .places {
   padding: 16px;
 }
-footer section .places #l1 {
+footer section .places img {
+  width: 20px;
+}
+footer section .places .address {
   display: flex;
   align-self: center;
-  justify-content: left;
-}
-footer section .places #l1 h3 {
-  width: 100%;
-  border: none;
-}
-footer section .places #l1 p {
-  width: 100%;
-}
-footer section .places #l2 {
-  display: flex;
-  align-self: center;
-}
-footer section .places #l3 {
-  display: flex;
-  align-self: center;
+  gap: 8px;
 }
 @media (min-width: 768px) {
   footer section .places {

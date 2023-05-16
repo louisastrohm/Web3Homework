@@ -22,39 +22,19 @@ footer{
 
         .places{
             padding: 16px;
+            img{
+                width: 20px;
+            }
 
-            #l1{
+            .address{
             display:flex;
 
             align-self: center;
-            justify-content: left;
-
-            h3{
-                width: 100%;
-                border:none;
-            }
-
-            p{
-                width:100%;
-            }
-
-
-
-            }
-
-            #l2{
-                display:flex;
-                align-self: center;
-                
-                }
-
-            #l3{
-                display:flex;
-                align-self: center;
-                    
-                }
+            gap:8px;
 
         
+            }
+
            @include md{
                 grid-area: f1;
             }
